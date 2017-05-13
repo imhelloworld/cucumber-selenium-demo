@@ -1,26 +1,26 @@
 # cucumber-selenium Demo
 
-> 使用cucumber，selenium 技术 创建一个简单的demo。
+> 使用cucumber，selenium 技术 创建一个简单的demo。
 
-- ## 安装node.js
+- ## 安装node.js
     https://nodejs.org/zh-cn/  直接下载安装即可。  
     检验是否安装成功 打开命令行 输入 node -v  
     ```
     zackdeMacBook-Pro:~ zack-zhao$ node -v 
     v6.10.3
     ```
-    有对应的版本号显示出来 即表示安装成功。
-- ## 安装 Chrome 浏览器
-    本程序使用的是 chrome 浏览器运行的。请在本机安装好chrome 浏览器
+    有对应的版本号显示出来,即表示安装成功。
+- ## 安装Chrome 浏览器
+    本程序使用的是chrome 浏览器运行的。请在本机安装好chrome 浏览器
 - ## 安装依赖文件
-    在命令行下， 定位到本程序的目录下，运行 npm install  
+    在命令行下， 定位到本程序的目录下，运行 npm install  
     ```
     cd  /Users/zack-zhao/Desktop/cucumber-selenium-demo/
     npm install
     ```
-    安装完成后，在cucumber-selenium-demo 会有一个node_moudules的目录
+    安装完成后，在cucumber-selenium-demo 会有一个node_moudules的目录
 - ## 运行
-    在cucumber-selenium-demo下运行命令 npm run script 会自动打开浏览器进行运行，运行完成后自动关闭浏览器，并打印出运行结果。
+    在cucumber-selenium-demo下运行命令 npm run script 会自动打开浏览器进行运行，运行完成后自动关闭浏览器，并打印出运行结果。
     ```
     Feature: Example feature
 
